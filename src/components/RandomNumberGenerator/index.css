@@ -1,0 +1,53 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 33%;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.title {
+  font-size: 28px;
+  font-weight: 800;
+  font-family: 'Roboto';
+  color: #0b69ff;
+  margin-bottom: 20px;
+}
+.description {
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: #333333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.btn-style {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 0;
+}
+.random-number {
+  font-size: 42px;
+  font-weight: 800;
+  font-family: 'Roboto';
+  color: #0b69ff;
+  margin-top: 20px;
+}
